@@ -16,6 +16,7 @@ Run the following steps to build sick_scan_xd on Linux with ROS 2:
    git clone https://github.com/SICKAG/msgpack11.git
    git clone https://github.com/SICKAG/sick_scan_xd.git
    popd
+   rm -rf ./build ./build_isolated/ ./devel ./devel_isolated/ ./install ./install_isolated/ ./log/ # remove any files from a previous build
    ```
 
 3. Build sick_generic_caller:
